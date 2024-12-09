@@ -8,7 +8,7 @@ export const userResolvers = {
             args: { page?: number; limit?: number },
             context: { info: string }
           ) => {
-            console.log("Context Info:", context.info); 
+            console.log("Context Info:", args); 
       
             const page = args.page || 1;
             const limit = args.limit || 10;
