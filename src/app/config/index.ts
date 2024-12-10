@@ -5,4 +5,5 @@ dotenv.config({ path: path.join(process.cwd(), '.env') })
 export default {
     port: process.env.PORT, // 3000 port use
     database_url: process.env.DATABASE_URL, // my database connect url
+    jwt_secret: process.env.JWT_SECRET , // my database connect url
 }

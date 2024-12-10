@@ -29,7 +29,6 @@ const UserSchema = new Schema<TUser>(
         profileImage: {
             type: String,
             trim: true,
-            required: true
         },
         role: {
             type: String,
